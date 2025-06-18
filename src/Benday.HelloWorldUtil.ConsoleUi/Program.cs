@@ -16,14 +16,20 @@ else
     if (commandName == "hello")
     {
         command = new HelloWorldCommand(args);
+
+        command.Execute();
     }
     else if (commandName == "random")
     {
         command = new RandomNumberCommand(args);
+
+        command.Execute();
     }
     else if (commandName == "now")
     {
         command = new CurrentDateTimeCommand(args);
+
+        command.Execute();
     }
     else
     {
@@ -55,4 +61,6 @@ void DisplayUsage()
     builder.AppendLine("  now    - Displays the current time");
 
     builder.AppendLine();
+
+    Console.WriteLine(builder.ToString());
 }
