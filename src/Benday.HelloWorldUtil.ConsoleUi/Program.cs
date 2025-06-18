@@ -1,7 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-
-using Benday.HelloWorldUtil.Api;
+﻿using Benday.HelloWorldUtil.Api;
 using System.Diagnostics;
 using System.Text;
 
