@@ -13,6 +13,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0C88DD14-F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benday.HelloWorldUtil.UnitTests", "test\Benday.HelloWorldUtil.UnitTests\Benday.HelloWorldUtil.UnitTests.csproj", "{F2F0702D-F1A6-4F68-8A3B-FF2E408FDD8D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		install.ps1 = install.ps1
+		uninstall.ps1 = uninstall.ps1
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,5 +73,8 @@ Global
 		{6B5D78E2-C6A7-48CD-8F2A-EC0278594088} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{AA96C1B5-8BC0-496A-A987-77E0D404C1D7} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 		{F2F0702D-F1A6-4F68-8A3B-FF2E408FDD8D} = {0C88DD14-F956-CE84-757C-A364CCF449FC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFA228F7-964C-4F65-B1CB-4C48AE16C4D7}
 	EndGlobalSection
 EndGlobal
