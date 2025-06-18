@@ -1,5 +1,4 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <ItemGroup>
     <ProjectReference Include="..\Benday.HelloWorldUtil.Api\Benday.HelloWorldUtil.Api.csproj" />
   </ItemGroup>
@@ -9,6 +8,12 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Hello World .NET Core Tool</Title>
+    <PackAsTool>True</PackAsTool>
+    <AssemblyName>helloworldutil</AssemblyName>
   </PropertyGroup>
-
 </Project>
+
+
+
